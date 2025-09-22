@@ -7,7 +7,7 @@
                 "Notes": "Base Model",
                 "CabinAirFilter": {
                     "OEM": "5058693AA",
-                    "Fram": "FSC10729,CV10729,CF10729,FDC10729",
+                    "Fram": "10729",
                     "Motomaster": "MCF10550"
                 },
                 "Engines": {
@@ -1060,7 +1060,7 @@
                 "Notes": "Base Model",
                 "CabinAirFilter": {
                     "OEM": "68069922AA",
-                    "Fram": "CF10211",
+                    "Fram": "10729",
                     "Motomaster": "MCF10551"
                 },
                 "Engines": {
