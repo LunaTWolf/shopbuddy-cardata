@@ -1,7 +1,10 @@
 {
   "CabinAirFilter": {
     "Fram": {
-      
+      "FSC10729": {
+        "Name": "FRAM Titanium",
+        "CompatibleVehicles": ""
+      }
     }
   }
 }
