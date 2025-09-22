@@ -3,7 +3,19 @@
     "Fram": {
       "FSC10729": {
         "Name": "FRAM Titanium",
-        "CompatibleVehicles": ""
+        "CompatibleVehicles": "2010d001"
+      },
+      "CV10729": {
+        "Name": "FRAM TrueAir",
+        "CompatibleVehicles": "2010d001"
+      },
+      "CF10729": {
+        "Name": "FRAM Fresh Breeze",
+        "CompatibleVehicles": "2010d001"
+      },
+      "FDC10729": {
+        "Name": "FRAM Drive",
+        "CompatibleVehicles": "2010d001"
       }
     }
   }
