@@ -154,13 +154,14 @@
         }
     },
     "Caliber": {
+        "ID": "2010d003",
         "Trims": {
             "SE": {
                 "PrettyName": "SE",
                 "Notes": "Base Model",
                 "CabinAirFilter": {
                     "OEM": "5058693AA",
-                    "Fram": "CF10729",
+                    "Fram": "10729",
                     "Motomaster": "MCF10550"
                 },
                 "Engines": {
