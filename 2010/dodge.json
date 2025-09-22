@@ -1,6 +1,6 @@
 {
     "Avenger": {
-        "ID": "2010d001",
+        "ID": "2010dodgeavenger",
         "Trims": {
             "EXPRESS": {
                 "PrettyName": "Express or SE",
@@ -154,7 +154,7 @@
         }
     },
     "Caliber": {
-        "ID": "2010d003",
+        "ID": "2010dodgecaliber",
         "Trims": {
             "SE": {
                 "PrettyName": "SE",
@@ -1054,7 +1054,7 @@
         }
     },
     "Journey": {
-        "ID": "2010d002",
+        "ID": "2010dodgejourney",
         "Trims": {
             "SE": {
                 "PrettyName": "SE",
