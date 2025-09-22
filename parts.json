@@ -6,13 +6,13 @@
         "CompatibleVehicles": {
           "dodge": {
             "avenger": {
-              "years": "2008-2014"
+              "years": "08-14"
             },
             "caliber": {
-              "years": "2007-2012"
+              "years": "07-12"
             },
             "journey": {
-              "years": "2009-2020"
+              "years": "09-20"
             }
           }
         }
@@ -22,17 +22,22 @@
         "CompatibleVehicles": {
           "dodge": {
             "challenger": {
-              "years": "2008-2010"
+              "years": "08-10"
             },
             "charger": {
-              "years": "2006-2010"
+              "years": "06-10"
             },
             "magnum": {
-              "years": "2005-2008"
+              "years": "05-08"
+            }
+          },
+          "chrysler": {
+            "300": {
+              "years": "05-10"
             }
           }
         }
-      },
+      }
     }
   }
 }
