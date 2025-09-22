@@ -1,20 +1,8 @@
 {
   "CabinAirFilter": {
     "Fram": {
-      "FSC10729": {
-        "Name": "FRAM Titanium",
-        "CompatibleVehicles": "2010d001,2010d002"
-      },
-      "CV10729": {
-        "Name": "FRAM TrueAir",
-        "CompatibleVehicles": "2010d001,2010d002"
-      },
-      "CF10729": {
-        "Name": "FRAM Fresh Breeze",
-        "CompatibleVehicles": "2010d001,2010d002"
-      },
-      "FDC10729": {
-        "Name": "FRAM Drive",
+      "10729" : {
+        "Types": "FSC,CV,CF,FDC",
         "CompatibleVehicles": "2010d001,2010d002"
       }
     }
