@@ -3,8 +3,36 @@
     "Fram": {
       "10729" : {
         "Types": "FSC,CV,CF,FDC",
-        "CompatibleVehicles": "2010dodgeavenger,2010dodgejourney,2010dodgecaliber"
-      }
+        "CompatibleVehicles": {
+          "dodge": {
+            "avenger": {
+              "years": "2008-2014"
+            },
+            "caliber": {
+              "years": "2007-2012"
+            },
+            "journey": {
+              "years": "2009-2020"
+            }
+          }
+        }
+      },
+      "10364" : {
+        "Types": "CF,FDC",
+        "CompatibleVehicles": {
+          "dodge": {
+            "challenger": {
+              "years": "2008-2010"
+            },
+            "charger": {
+              "years": "2006-2010"
+            },
+            "magnum": {
+              "years": "2005-2008"
+            }
+          }
+        }
+      },
     }
   }
 }
