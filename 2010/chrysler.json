@@ -1,0 +1,171 @@
+{
+    "Chrysler300": {
+        "PrettyName": "Chrysler 300",
+        "Trims": {
+            "Touring": {
+                "PrettyName": "Touring",
+                "Notes": "Base V6 trim",
+                "CabinAirFilter": {
+                    "OEM": "5019530AA",
+                    "Fram": "CF10709",
+                    "Motomaster": "MCF10709"
+                },
+                "Engines": {
+                    "2.7L V6": {
+                        "Horsepower": 178,
+                        "Torque": 190,
+                        "Cylinders": 6,
+                        "Transmission": "4-Speed Automatic",
+                        "TransmissionCode": "42RLE",
+                        "Oil": {
+                            "Type": "SAE 5W-30",
+                            "QuantityQuarts": 5,
+                            "QuantityLiters": 4.7,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
+                            "Filters": {
+                                "OEM": "05281090AB",
+                                "Fram": "PH16",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "4593837AB",
+                            "Fram": "CA10348",
+                            "Motomaster": "MCA10348"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SPRE14MCC4",
+                            "NGK": "ZFR5F-11",
+                            "Denso": "KJ16CR-L11"
+                        }
+                    }
+                }
+            },
+            "TouringPlus": {
+                "PrettyName": "Touring Plus",
+                "Notes": "Mid-level trim with larger V6",
+                "CabinAirFilter": {
+                    "OEM": "5019530AA",
+                    "Fram": "CF10709",
+                    "Motomaster": "MCF10709"
+                },
+                "Engines": {
+                    "3.5L V6": {
+                        "Horsepower": 250,
+                        "Torque": 250,
+                        "Cylinders": 6,
+                        "Transmission": "4-Speed Automatic",
+                        "TransmissionCode": "42RLE",
+                        "Oil": {
+                            "Type": "SAE 10W-30",
+                            "QuantityQuarts": 5,
+                            "QuantityLiters": 4.7,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
+                            "Filters": {
+                                "OEM": "05281090AB",
+                                "Fram": "PH16",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "4593837AB",
+                            "Fram": "CA10348",
+                            "Motomaster": "MCA10348"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SPRE14MCC4",
+                            "NGK": "ZFR5F-11",
+                            "Denso": "KJ16CR-L11"
+                        }
+                    }
+                }
+            },
+            "300C": {
+                "PrettyName": "300C",
+                "Notes": "Luxury trim with HEMI V8",
+                "CabinAirFilter": {
+                    "OEM": "5019530AA",
+                    "Fram": "CF10709",
+                    "Motomaster": "MCF10709"
+                },
+                "Engines": {
+                    "5.7L HEMI V8": {
+                        "Horsepower": 359,
+                        "Torque": 389,
+                        "Cylinders": 8,
+                        "Transmission": "5-Speed Automatic",
+                        "TransmissionCode": "NAG1",
+                        "Oil": {
+                            "Type": "SAE 5W-20",
+                            "QuantityQuarts": 7,
+                            "QuantityLiters": 6.6,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
+                            "Filters": {
+                                "OEM": "4884899AB",
+                                "Fram": "PH10060",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "4593837AB",
+                            "Fram": "CA10348",
+                            "Motomaster": "MCA10348"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SPZFR5C11",
+                            "NGK": "LZFR5C-11",
+                            "Denso": "SK16PR-E11"
+                        }
+                    }
+                }
+            },
+            "SRT8": {
+                "PrettyName": "300C SRT8",
+                "Notes": "High-performance trim",
+                "CabinAirFilter": {
+                    "OEM": "5019530AA",
+                    "Fram": "CF10709",
+                    "Motomaster": "MCF10709"
+                },
+                "Engines": {
+                    "6.1L HEMI V8": {
+                        "Horsepower": 425,
+                        "Torque": 420,
+                        "Cylinders": 8,
+                        "Transmission": "5-Speed Automatic",
+                        "TransmissionCode": "NAG1",
+                        "Oil": {
+                            "Type": "SAE 0W-40 (Synthetic)",
+                            "QuantityQuarts": 7,
+                            "QuantityLiters": 6.6,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
+                            "Filters": {
+                                "OEM": "5038041AA",
+                                "Fram": "PH10060",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "5037630AB",
+                            "Fram": "CA9496",
+                            "Motomaster": "MCA9496"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SP149125AE",
+                            "NGK": "LZTR4A-11 (2262)",
+                            "Denso": "IT16TT"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

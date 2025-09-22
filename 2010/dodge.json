@@ -20,6 +20,9 @@
                             "Type": "SAE 5W-20",
                             "QuantityQuarts": 4.5,
                             "QuantityLiters": 4.3,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "1AML00006A",
                                 "Fram": "PH6607",
@@ -57,6 +60,9 @@
                             "Type": "SAE 5W-20",
                             "QuantityQuarts": 4.5,
                             "QuantityLiters": 4.3,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "1AML00006A",
                                 "Fram": "PH6607",
@@ -94,6 +100,9 @@
                             "Type": "SAE 5W-20",
                             "QuantityQuarts": 4.5,
                             "QuantityLiters": 4.3,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "1AML00006A",
                                 "Fram": "PH6607",
@@ -120,6 +129,9 @@
                             "Type": "SAE 5W-20",
                             "QuantityQuarts": 6,
                             "QuantityLiters": 5.7,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "4892339BE",
                                 "Fram": "PH10060",
@@ -161,6 +173,9 @@
                             "Type": "SAE 5W-30",
                             "QuantityQuarts": 4.5,
                             "QuantityLiters": 4.3,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "1AML00006A",
                                 "Fram": "PH6607",
@@ -198,6 +213,9 @@
                             "Type": "SAE 5W-30",
                             "QuantityQuarts": 4.5,
                             "QuantityLiters": 4.3,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "1AML00006A",
                                 "Fram": "PH6607",
@@ -235,6 +253,9 @@
                             "Type": "SAE 5W-30",
                             "QuantityQuarts": 4.5,
                             "QuantityLiters": 4.3,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "1AML00006A",
                                 "Fram": "PH6607",
@@ -273,9 +294,12 @@
                         "Transmission": "4-Speed Automatic",
                         "TransmissionCode": "41TE",
                         "Oil": {
-                            "Type": "SAE 5W-30",
+                            "Type": "SAE 5W-20",
                             "QuantityQuarts": 5,
                             "QuantityLiters": 4.7,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "4892339BE",
                                 "Fram": "PH10060",
@@ -310,9 +334,12 @@
                         "Transmission": "4-Speed Automatic",
                         "TransmissionCode": "41TE",
                         "Oil": {
-                            "Type": "SAE 5W-30",
+                            "Type": "SAE 5W-20",
                             "QuantityQuarts": 5,
                             "QuantityLiters": 4.7,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "4892339BE",
                                 "Fram": "PH10060",
@@ -350,6 +377,9 @@
                             "Type": "SAE 5W-20",
                             "QuantityQuarts": 7,
                             "QuantityLiters": 6.6,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "4892339BE",
                                 "Fram": "PH10060",
@@ -364,6 +394,46 @@
                         "SparkPlugs": {
                             "OEM": "ZFR5F-11",
                             "NGK": "ZFR5F-11"
+                        }
+                    }
+                }
+            },
+            "SRT8": {
+                "PrettyName": "SRT8",
+                "Notes": "High-Performance Model",
+                "CabinAirFilter": {
+                    "OEM": "None",
+                    "Fram": "None",
+                    "Motomaster": "None"
+                },
+                "Engines": {
+                    "6.1L V8": {
+                        "Horsepower": 425,
+                        "Torque": 420,
+                        "Cylinders": 8,
+                        "Transmission": "5-Speed Automatic",
+                        "TransmissionCode": "NAG1",
+                        "Oil": {
+                            "Type": "SAE 0W-40 Synthetic",
+                            "QuantityQuarts": 7,
+                            "QuantityLiters": 6.6,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
+                            "Filters": {
+                                "OEM": "5038041AA",
+                                "Fram": "PH10060",
+                                "Motomaster": "MO-899"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "5038042AA",
+                            "Fram": "CA9496",
+                            "Motomaster": "MCA9496"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "RE14MCC4",
+                            "NGK": "LZTR4A-11"
                         }
                     }
                 }
@@ -385,12 +455,15 @@
                         "Horsepower": 250,
                         "Torque": 250,
                         "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
+                        "Transmission": "5-Speed Automatic",
+                        "TransmissionCode": "5N",
                         "Oil": {
                             "Type": "SAE 5W-30",
                             "QuantityQuarts": 5,
                             "QuantityLiters": 4.7,
+                            "ChangeIntervalMiles": 6000,
+                            "ChangeIntervalKM": 10000,
+                            "ChangeIntervalMonths": 6,
                             "Filters": {
                                 "OEM": "4892339BE",
                                 "Fram": "PH10060",
@@ -423,8 +496,8 @@
                         "Horsepower": 250,
                         "Torque": 250,
                         "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
+                        "Transmission": "5-Speed Automatic",
+                        "TransmissionCode": "5N",
                         "Oil": {
                             "Type": "SAE 5W-30",
                             "QuantityQuarts": 5,
