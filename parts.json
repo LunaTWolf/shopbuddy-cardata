@@ -1,7 +1,7 @@
 {
   "CabinAirFilter": {
     "Fram": {
-      "10729" : {
+      "10729": {
         "Types": "FSC,CV,CF,FDC",
         "CompatibleVehicles": {
           "dodge": {
@@ -14,10 +14,29 @@
             "journey": {
               "years": "09-20"
             }
+          },
+          "chrysler": {
+            "200": {
+              "years": "11-14"
+            },
+            "cirrus": {
+              "years": "07-10"
+            },
+            "sebring": {
+              "years": "07-10"
+            }
+          }
+          "jeep": {
+            "compass": {
+              "years": "07-17"
+            },
+            "patriot": {
+              "years": "07-17"
+            }
           }
         }
       },
-      "10364" : {
+      "10364": {
         "Types": "CF,FDC",
         "CompatibleVehicles": {
           "dodge": {
