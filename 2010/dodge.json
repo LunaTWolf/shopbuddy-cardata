@@ -1900,5 +1900,231 @@
                 }
             }
         }
+    },
+    "Ram2500_3500HeavyDutyMegaCab": {
+        "PrettyName": "Ram 2500/3500 Heavy Duty Mega Cab",
+        "Trims": {
+            "SLT": {
+                "PrettyName": "SLT",
+                "Notes": "Heavy Duty Mega Cab",
+                "CabinAirFilter": {
+                    "OEM": "68069922AA",
+                    "Fram": "CF10211",
+                    "Motomaster": "MCF10551"
+                },
+                "Engines": {
+                    "5.7L HEMI V8": {
+                        "Horsepower": 390,
+                        "Torque": 407,
+                        "Cylinders": 8,
+                        "Transmission": "5-Speed Automatic",
+                        "TransmissionCode": "545RFE",
+                        "Oil": {
+                            "Type": "SAE 5W-20",
+                            "QuantityQuarts": 8,
+                            "QuantityLiters": 7.6,
+                            "Filters": {
+                                "OEM": "4884899AB",
+                                "Fram": "PH10060",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "53034072AA",
+                            "Fram": "CA9288",
+                            "Motomaster": "MCA9997"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SPZFR6F11G",
+                            "NGK": "4469",
+                            "Denso": "3247"
+                        }
+                    },
+                    "6.7L Cummins Turbo Diesel I6": {
+                        "Horsepower": 350,
+                        "Torque": 650,
+                        "Cylinders": 6,
+                        "Transmission": "6-Speed Automatic",
+                        "TransmissionCode": "68RFE",
+                        "Oil": {
+                            "Type": "SAE 15W-40",
+                            "QuantityQuarts": 12,
+                            "QuantityLiters": 11.4,
+                            "Filters": {
+                                "OEM": "68121100AA",
+                                "Fram": "PH3614",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "68113534AA",
+                            "Fram": "CA10657",
+                            "Motomaster": "MCA9997"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "None",
+                            "NGK": "None",
+                            "Denso": "None"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Ram2500_3500HeavyDutyRegularCab": {
+        "PrettyName": "Ram 2500/3500 Heavy Duty Regular Cab",
+        "Trims": {
+            "ST": {
+                "PrettyName": "ST",
+                "Notes": "Base Heavy Duty Regular Cab",
+                "CabinAirFilter": {
+                    "OEM": "None",
+                    "Fram": "None",
+                    "Motomaster": "None"
+                },
+                "Engines": {
+                    "5.7L HEMI V8": {
+                        "Horsepower": 390,
+                        "Torque": 407,
+                        "Cylinders": 8,
+                        "Transmission": "5-Speed Automatic",
+                        "TransmissionCode": "545RFE",
+                        "Oil": {
+                            "Type": "SAE 5W-20",
+                            "QuantityQuarts": 8,
+                            "QuantityLiters": 7.6,
+                            "Filters": {
+                                "OEM": "4884899AB",
+                                "Fram": "PH10060",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "53034072AA",
+                            "Fram": "CA9288",
+                            "Motomaster": "MCA9997"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SPZFR6F11G",
+                            "NGK": "4469",
+                            "Denso": "3247"
+                        }
+                    },
+                    "6.7L Cummins Turbo Diesel I6": {
+                        "Horsepower": 350,
+                        "Torque": 650,
+                        "Cylinders": 6,
+                        "Transmission": "6-Speed Automatic",
+                        "TransmissionCode": "68RFE",
+                        "Oil": {
+                            "Type": "SAE 15W-40",
+                            "QuantityQuarts": 12,
+                            "QuantityLiters": 11.4,
+                            "Filters": {
+                                "OEM": "68121100AA",
+                                "Fram": "PH3614",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "68113534AA",
+                            "Fram": "CA10657",
+                            "Motomaster": "MCA9997"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "None",
+                            "NGK": "None",
+                            "Denso": "None"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ViperCoupe": {
+        "PrettyName": "Viper Coupe",
+        "Trims": {
+            "Base": {
+                "PrettyName": "Base Coupe",
+                "Notes": "High-performance sports car",
+                "CabinAirFilter": {
+                    "OEM": "None",
+                    "Fram": "None",
+                    "Motomaster": "None"
+                },
+                "Engines": {
+                    "8.4L V10": {
+                        "Horsepower": 600,
+                        "Torque": 560,
+                        "Cylinders": 10,
+                        "Transmission": "6-Speed Manual",
+                        "TransmissionCode": "Tremec TR-6060",
+                        "Oil": {
+                            "Type": "SAE 0W-40 (Mobil 1 Full Synthetic recommended)",
+                            "QuantityQuarts": 10.5,
+                            "QuantityLiters": 9.9,
+                            "Filters": {
+                                "OEM": "5038041AA",
+                                "Fram": "PH10060",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "5037505AB",
+                            "Fram": "CA9496",
+                            "Motomaster": "MCA9496"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SP149125AE",
+                            "NGK": "LZTR4A-11 (2262)",
+                            "Denso": "IT16TT"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ViperRoadster": {
+        "PrettyName": "Dodge Viper Roadster",
+        "Trims": {
+            "Base": {
+                "PrettyName": "Base Roadster",
+                "Notes": "High-performance convertible",
+                "CabinAirFilter": {
+                    "OEM": "None",
+                    "Fram": "None",
+                    "Motomaster": "None"
+                },
+                "Engines": {
+                    "8.4L V10": {
+                        "Horsepower": 600,
+                        "Torque": 560,
+                        "Cylinders": 10,
+                        "Transmission": "6-Speed Manual",
+                        "TransmissionCode": "Tremec TR-6060",
+                        "Oil": {
+                            "Type": "SAE 0W-40 (Mobil 1 Full Synthetic recommended)",
+                            "QuantityQuarts": 10.5,
+                            "QuantityLiters": 9.9,
+                            "Filters": {
+                                "OEM": "5038041AA",
+                                "Fram": "PH10060",
+                                "Motomaster": "FD"
+                            }
+                        },
+                        "AirFilter": {
+                            "OEM": "5037505AB",
+                            "Fram": "CA9496",
+                            "Motomaster": "MCA9496"
+                        },
+                        "SparkPlugs": {
+                            "OEM": "SP149125AE",
+                            "NGK": "LZTR4A-11 (2262)",
+                            "Denso": "IT16TT"
+                        }
+                    }
+                }
+            }
+        }
     }
 }
