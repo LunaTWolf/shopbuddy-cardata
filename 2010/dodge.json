@@ -8,11 +8,7 @@
                 "TireSize": "215/60R17 95T",
                 "LugnutSize": "M12-1.50",
                 "TirePressure": "32 PSI",
-                "CabinAirFilter": {
-                    "OEM": "5058693AA",
-                    "Fram": "10729",
-                    "Motomaster": "MCF10550"
-                },
+                "CabinAirFilter": "10729",
                 "MinimumRotor": {
                     "Front": "24.4mm",
                     "Rear": "8.4mm"
