@@ -22,6 +22,7 @@
                         "Cylinders": 4,
                         "Transmission": "4-Speed Automatic",
                         "TransmissionCode": "41TE",
+                        "Drivetrain": "FWD",
                         "Oil": {
                             "Type": "SAE 5W-20",
                             "QuantityQuarts": 4.5,
