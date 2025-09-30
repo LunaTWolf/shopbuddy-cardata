@@ -10,6 +10,10 @@
                     "Fram": "10729",
                     "Motomaster": "MCF10550"
                 },
+                "MinimumRotor": {
+                    "Front": "24.4mm",
+                    "Rear": "8.4mm"
+                },
                 "Engines": {
                     "2.4": {
                         "PrettyName": "2.4L I4",
