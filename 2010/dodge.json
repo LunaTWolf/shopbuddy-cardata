@@ -6,8 +6,8 @@
                 "PrettyName": "Express or SE",
                 "Notes": "Base Model",
                 "TireSize": "215/60R17 95T",
-                "Lugnut Size": "M12-1.50",
-                "Tire Pressure": "32 PSI",
+                "LugnutSize": "M12-1.50",
+                "TirePressure": "32 PSI",
                 "CabinAirFilter": {
                     "OEM": "5058693AA",
                     "Fram": "10729",
