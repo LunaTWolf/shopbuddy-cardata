@@ -59,7 +59,10 @@
               "ChangeIntervalMonths": 6,
               "Filters": "6607"
             },
-            "2.7": {
+            "AirFilter": "9054",
+            "SparkPlugs": "ZFR5F-11"
+          },
+          "2.7": {
             "PrettyName": "2.7L V6",
             "Horsepower": 186,
             "Torque": 190,
@@ -96,9 +99,6 @@
               "ChangeIntervalMonths": 6,
               "Filters": "6824"
             },
-            "AirFilter": "9054",
-            "SparkPlugs": "ZFR5F-11"
-          }
         }
       },
       "RT": {
