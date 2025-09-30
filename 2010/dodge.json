@@ -59,6 +59,43 @@
               "ChangeIntervalMonths": 6,
               "Filters": "6607"
             },
+            "2.7": {
+            "PrettyName": "2.7L V6",
+            "Horsepower": 186,
+            "Torque": 190,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Drivetrain": "FWD",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": "6824"
+            },
+            "AirFilter": "CA10287",
+            "SparkPlugs": "ZFR6F-11"
+          },
+          "3.5": {
+            "PrettyName": "3.5L V6",
+            "Horsepower": 235,
+            "Torque": 232,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "62TE",
+            "Drivetrain": "FWD",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": "6824"
+            },
             "AirFilter": "9054",
             "SparkPlugs": "ZFR5F-11"
           }
