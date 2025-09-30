@@ -29,11 +29,7 @@
                             "ChangeIntervalMiles": 6000,
                             "ChangeIntervalKM": 10000,
                             "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "1AML00006A",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
+                            "Filters": "6607"
                         },
                         "AirFilter": {
                             "OEM": "4891926AB",
