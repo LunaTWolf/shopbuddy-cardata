@@ -12,6 +12,7 @@
                 },
                 "Engines": {
                     "2.4L I4": {
+                        "EngineID": "2.4",
                         "Horsepower": 173,
                         "Torque": 166,
                         "Cylinders": 4,
@@ -52,6 +53,7 @@
                 },
                 "Engines": {
                     "2.4L I4": {
+                        "EngineID": "2.4",
                         "Horsepower": 173,
                         "Torque": 166,
                         "Cylinders": 4,
@@ -92,6 +94,7 @@
                 },
                 "Engines": {
                     "2.4L I4": {
+                        "EngineID": "2.4",
                         "Horsepower": 173,
                         "Torque": 166,
                         "Cylinders": 4,
@@ -121,6 +124,7 @@
                         }
                     },
                     "3.5L V6": {
+                        "EngineID": "3.5",
                         "Horsepower": 235,
                         "Torque": 232,
                         "Cylinders": 6,
@@ -166,6 +170,7 @@
                 },
                 "Engines": {
                     "2.0L I4": {
+                        "EngineID": "2.0",
                         "Horsepower": 158,
                         "Torque": 125,
                         "Cylinders": 4,
@@ -206,6 +211,7 @@
                 },
                 "Engines": {
                     "2.0L I4": {
+                        "EngineID": "2.0",
                         "Horsepower": 158,
                         "Torque": 125,
                         "Cylinders": 4,
@@ -246,6 +252,7 @@
                 },
                 "Engines": {
                     "2.4L I4": {
+                        "EngineID": "2.4",
                         "Horsepower": 172,
                         "Torque": 165,
                         "Cylinders": 4,
@@ -290,6 +297,7 @@
                 },
                 "Engines": {
                     "3.5L V6": {
+                        "EngineID": "3.5",
                         "Horsepower": 250,
                         "Torque": 250,
                         "Cylinders": 6,
@@ -330,6 +338,7 @@
                 },
                 "Engines": {
                     "3.5L V6": {
+                        "EngineID": "3.5",
                         "Horsepower": 250,
                         "Torque": 250,
                         "Cylinders": 6,
@@ -370,6 +379,7 @@
                 },
                 "Engines": {
                     "5.7L V8": {
+                        "EngineID": "5.7",
                         "Horsepower": 372,
                         "Torque": 400,
                         "Cylinders": 8,
@@ -410,6 +420,7 @@
                 },
                 "Engines": {
                     "6.1L V8": {
+                        "EngineID": "6.1",
                         "Horsepower": 425,
                         "Torque": 420,
                         "Cylinders": 8,
@@ -454,6 +465,7 @@
                 },
                 "Engines": {
                     "3.5L V6": {
+                        "EngineID": "3.5",
                         "Horsepower": 250,
                         "Torque": 250,
                         "Cylinders": 6,
@@ -495,6 +507,7 @@
                 },
                 "Engines": {
                     "3.5L V6": {
+                        "EngineID": "3.5",
                         "Horsepower": 250,
                         "Torque": 250,
                         "Cylinders": 6,
@@ -533,6 +546,7 @@
                 },
                 "Engines": {
                     "5.7L V8": {
+                        "EngineID": "5.7",
                         "Horsepower": 370,
                         "Torque": 395,
                         "Cylinders": 8,
@@ -576,6 +590,7 @@
                 },
                 "Engines": {
                     "3.7L V6": {
+                        "EngineID": "3.7",
                         "Horsepower": 210,
                         "Torque": 235,
                         "Cylinders": 6,
@@ -614,6 +629,7 @@
                 },
                 "Engines": {
                     "3.7L V6": {
+                        "EngineID": "3.7",
                         "Horsepower": 210,
                         "Torque": 235,
                         "Cylinders": 6,
@@ -641,6 +657,7 @@
                         }
                     },
                     "4.7L V8": {
+                        "EngineID": "4.7",
                         "Horsepower": 302,
                         "Torque": 329,
                         "Cylinders": 8,
@@ -679,6 +696,7 @@
                 },
                 "Engines": {
                     "4.7L V8": {
+                        "EngineID": "4.7",
                         "Horsepower": 302,
                         "Torque": 329,
                         "Cylinders": 8,
@@ -722,6 +740,7 @@
                 },
                 "Engines": {
                     "3.7L V6": {
+                        "EngineID": "3.7",
                         "Horsepower": 210,
                         "Torque": 235,
                         "Cylinders": 6,
