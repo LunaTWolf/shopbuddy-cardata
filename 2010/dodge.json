@@ -31,15 +31,8 @@
                             "ChangeIntervalMonths": 6,
                             "Filters": "6607"
                         },
-                        "AirFilter": {
-                            "OEM": "4891926AB",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
+                        "AirFilter": "9054",
+                        "SparkPlugs": "ZFR5F-11"
                     }
                 }
             },
