@@ -5,6 +5,7 @@
             "EXPRESS": {
                 "PrettyName": "Express or SE",
                 "Notes": "Base Model",
+                "TireSize": "215/60R17 95T",
                 "CabinAirFilter": {
                     "OEM": "5058693AA",
                     "Fram": "10729",
