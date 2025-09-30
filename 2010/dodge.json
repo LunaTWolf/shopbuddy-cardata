@@ -11,8 +11,8 @@
                     "Motomaster": "MCF10550"
                 },
                 "Engines": {
-                    "2.4L I4": {
-                        "EngineID": "2.4",
+                    "2.4": {
+                        "PrettyName": "2.4L I4",
                         "Horsepower": 173,
                         "Torque": 166,
                         "Cylinders": 4,
