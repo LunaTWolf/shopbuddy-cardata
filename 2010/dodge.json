@@ -1,2218 +1,2010 @@
 {
-    "Avenger": {
-        "ID": "2010dodgeavenger",
-        "Trims": {
-            "EXPRESS": {
-                "PrettyName": "Express or SE",
-                "Notes": "Base Trim",
-                "TireSize": "215/60R17 95T",
-                "LugnutSize": "M12-1.50",
-                "TirePressure": "32 PSI",
-                "CabinAirFilter": "10729",
-                "MinimumRotor": {
-                    "Front": "24.4mm",
-                    "Rear": "8.4mm"
-                },
-                "Engines": {
-                    "2.4": {
-                        "PrettyName": "2.4L I4",
-                        "Horsepower": 173,
-                        "Torque": 166,
-                        "Cylinders": 4,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Drivetrain": "FWD",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": "6607"
-                        },
-                        "AirFilter": "9054",
-                        "SparkPlugs": "ZFR5F-11"
-                    }
-                }
+  "Avenger": {
+    "ID": "2010dodgeavenger",
+    "Trims": {
+      "EXPRESS": {
+        "PrettyName": "Express or SE",
+        "Notes": "Base Trim",
+        "TireSize": "215/60R17",
+        "LugnutSize": "M12-1.50",
+        "TirePressure": "32 PSI",
+        "CabinAirFilter": "10729",
+        "MinimumRotor": {"Front": "24.4mm", "Rear": "8.4mm"},
+        "Engines": {
+          "2.4": {
+            "PrettyName": "2.4L I4",
+            "Horsepower": 173,
+            "Torque": 166,
+            "Cylinders": 4,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Drivetrain": "FWD",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": "6607"
             },
-            "SXT": {
-                "PrettyName": "SXT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "5058693AA",
-                    "Fram": "10729",
-                    "Motomaster": "MCF10550"
-                },
-                "Engines": {
-                    "2.4L I4": {
-                        "EngineID": "2.4",
-                        "Horsepower": 173,
-                        "Torque": 166,
-                        "Cylinders": 4,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "1AML00006A",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4891926AB",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            },
-            "RT": {
-                "PrettyName": "R/T",
-                "Notes": "Sport Model",
-                "CabinAirFilter": {
-                    "OEM": "5058693AA",
-                    "Fram": "10729",
-                    "Motomaster": "MCF10550"
-                },
-                "Engines": {
-                    "2.4L I4": {
-                        "EngineID": "2.4",
-                        "Horsepower": 173,
-                        "Torque": 166,
-                        "Cylinders": 4,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "1AML00006A",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4891926AB",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    },
-                    "3.5L V6": {
-                        "EngineID": "3.5",
-                        "Horsepower": 235,
-                        "Torque": 232,
-                        "Cylinders": 6,
-                        "Transmission": "6-Speed Automatic",
-                        "TransmissionCode": "62TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            }
+            "AirFilter": "9054",
+            "SparkPlugs": "ZFR5F-11"
+          }
         }
-    },
-    "Caliber": {
-        "ID": "2010dodgecaliber",
-        "Trims": {
-            "SE": {
-                "PrettyName": "SE",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "5058693AA",
-                    "Fram": "10729",
-                    "Motomaster": "MCF10550"
-                },
-                "Engines": {
-                    "2.0L I4": {
-                        "EngineID": "2.0",
-                        "Horsepower": 158,
-                        "Torque": 125,
-                        "Cylinders": 4,
-                        "Transmission": "5-Speed Manual",
-                        "TransmissionCode": "M5",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "1AML00006A",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4891694AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SP0ZFR5F11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
+      },
+      "SXT": {
+        "PrettyName": "SXT",
+        "Notes": "Upgraded Trim",
+        "TireSize": "215/65R16",
+        "LugnutSize": "M12-1.50",
+        "TirePressure": "32 PSI",
+        "CabinAirFilter": "10729",
+        "MinimumRotor": {"Front": "24.4mm", "Rear": "8.4mm"},
+        "Engines": {
+          "2.4": {
+            "PrettyName": "2.4L I4",
+            "Horsepower": 173,
+            "Torque": 166,
+            "Cylinders": 4,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Drivetrain": "FWD",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": "6607"
             },
-            "SXT": {
-                "PrettyName": "SXT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "5058693AA",
-                    "Fram": "10729",
-                    "Motomaster": "MCF10550"
-                },
-                "Engines": {
-                    "2.0L I4": {
-                        "EngineID": "2.0",
-                        "Horsepower": 158,
-                        "Torque": 125,
-                        "Cylinders": 4,
-                        "Transmission": "5-Speed Manual",
-                        "TransmissionCode": "M5",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "1AML00006A",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4891694AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SP0ZFR5F11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            },
-            "R/T": {
-                "PrettyName": "R/T",
-                "Notes": "Sport Model",
-                "CabinAirFilter": {
-                    "OEM": "5058693AA",
-                    "Fram": "10729",
-                    "Motomaster": "MCF10550"
-                },
-                "Engines": {
-                    "2.4L I4": {
-                        "EngineID": "2.4",
-                        "Horsepower": 172,
-                        "Torque": 165,
-                        "Cylinders": 4,
-                        "Transmission": "6-Speed Manual",
-                        "TransmissionCode": "M6",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "1AML00006A",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4891694AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SP0ZFR5F11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            }
+            "AirFilter": "9054",
+            "SparkPlugs": "ZFR5F-11"
+          }
         }
-    },
-    "Challenger": {
-        "Trims": {
-            "SE": {
-                "PrettyName": "SE",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.5L V6": {
-                        "EngineID": "3.5",
-                        "Horsepower": 250,
-                        "Torque": 250,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
+      },
+      "RT": {
+        "PrettyName": "R/T",
+        "Notes": "Sport Model",
+        "TireSize": "I4: 215/60R17 V6: 216/55R18",
+        "LugnutSize": "M12-1.50",
+        "TirePressure": "32 PSI",
+        "CabinAirFilter": "10729",
+        "MinimumRotor": {"Front": "24.4mm", "Rear": "8.4mm"},
+        "Engines": {
+          "2.4": {
+            "PrettyName": "2.4L I4",
+            "Horsepower": 173,
+            "Torque": 166,
+            "Cylinders": 4,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Drivetrain": "FWD",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": "6607"
             },
-            "SXT": {
-                "PrettyName": "SXT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.5L V6": {
-                        "EngineID": "3.5",
-                        "Horsepower": 250,
-                        "Torque": 250,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
+            "AirFilter": "9054",
+            "SparkPlugs": "ZFR5F-11"
+          },
+          "2.7": {
+            "PrettyName": "2.7L V6",
+            "Horsepower": 186,
+            "Torque": 190,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Drivetrain": "FWD",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": "6824"
             },
-            "R/T": {
-                "PrettyName": "R/T",
-                "Notes": "Sport Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "5.7L V8": {
-                        "EngineID": "5.7",
-                        "Horsepower": 372,
-                        "Torque": 400,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
+            "AirFilter": "CA10287",
+            "SparkPlugs": "ZFR6F-11"
+          },
+          "3.5": {
+            "PrettyName": "3.5L V6",
+            "Horsepower": 235,
+            "Torque": 232,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "62TE",
+            "Drivetrain": "FWD",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": "6824"
             },
-            "SRT8": {
-                "PrettyName": "SRT8",
-                "Notes": "High-Performance Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "6.1L V8": {
-                        "EngineID": "6.1",
-                        "Horsepower": 425,
-                        "Torque": 420,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "NAG1",
-                        "Oil": {
-                            "Type": "SAE 0W-40 Synthetic",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "5038041AA",
-                                "Fram": "PH10060",
-                                "Motomaster": "MO-899"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "5038042AA",
-                            "Fram": "CA9496",
-                            "Motomaster": "MCA9496"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "RE14MCC4",
-                            "NGK": "LZTR4A-11"
-                        }
-                    }
-                }
-            }
+            "AirFilter": "CA10287",
+            "SparkPlugs": "ZFR6F-11"
+          }
         }
-    },
-    "Charger": {
-        "Trims": {
-            "SE": {
-                "PrettyName": "SE",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.5L V6": {
-                        "EngineID": "3.5",
-                        "Horsepower": 250,
-                        "Torque": 250,
-                        "Cylinders": 6,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "5N",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "ChangeIntervalMiles": 6000,
-                            "ChangeIntervalKM": 10000,
-                            "ChangeIntervalMonths": 6,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11",
-                            "Fram": "PH10060"
-                        }
-                    }
-                }
-            },
-            "SXT": {
-                "PrettyName": "SXT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.5L V6": {
-                        "EngineID": "3.5",
-                        "Horsepower": 250,
-                        "Torque": 250,
-                        "Cylinders": 6,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "5N",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11",
-                            "Fram": "PH10060"
-                        }
-                    }
-                }
-            },
-            "R/T": {
-                "PrettyName": "R/T",
-                "Notes": "Sport Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "5.7L V8": {
-                        "EngineID": "5.7",
-                        "Horsepower": 370,
-                        "Torque": 395,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11",
-                            "Fram": "PH10060"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "DakotaCrewCab": {
-        "PrettyName": "Dakota Crew Cab",
-        "Trims": {
-            "ST": {
-                "PrettyName": "ST",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "EngineID": "3.7",
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "EngineID": "3.7",
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "EngineID": "4.7",
-                        "Horsepower": 302,
-                        "Torque": 329,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "TRX4": {
-                "PrettyName": "TRX4",
-                "Notes": "Off-Road Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "4.7L V8": {
-                        "EngineID": "4.7",
-                        "Horsepower": 302,
-                        "Torque": 329,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "DakotaExtendedCab": {
-        "PrettyName": "Dakota Extended Cab",
-        "Trims": {
-            "ST": {
-                "PrettyName": "ST",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "EngineID": "3.7",
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "Horsepower": 302,
-                        "Torque": 329,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "TRX4": {
-                "PrettyName": "TRX4",
-                "Notes": "Off-Road Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "4.7L V8": {
-                        "Horsepower": 302,
-                        "Torque": 329,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-30",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "GrandCaravan": {
-        "Trims": {
-            "SE": {
-                "PrettyName": "SE",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "5082923AA",
-                    "Fram": "CF10215",
-                    "Motomaster": "MCF10550"
-                },
-                "Engines": {
-                    "3.3L V6": {
-                        "Horsepower": 180,
-                        "Torque": 210,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4892339AA",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "04892339AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    },
-                    "3.8L V6": {
-                        "Horsepower": 197,
-                        "Torque": 230,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4892339AA",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "04892339AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            },
-            "SXT": {
-                "PrettyName": "SXT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "5082923AA",
-                    "Fram": "CF10215",
-                    "Motomaster": "MCF10550"
-                },
-                "Engines": {
-                    "3.3L V6": {
-                        "Horsepower": 180,
-                        "Torque": 210,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4892339AA",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "04892339AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    },
-                    "3.8L V6": {
-                        "Horsepower": 197,
-                        "Torque": 230,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4892339AA",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "04892339AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "GrandCaravanCargo": {
-        "PrettyName": "Grand Caravan Cargo",
-        "Trims": {
-            "CargoVan": {
-                "PrettyName": "Cargo Van",
-                "Notes": "Commercial Van Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.3L V6": {
-                        "Horsepower": 180,
-                        "Torque": 210,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4892339AA",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "04892339AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    },
-                    "3.8L V6": {
-                        "Horsepower": 197,
-                        "Torque": 230,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4892339AA",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "04892339AA",
-                            "Fram": "CA10118",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Journey": {
-        "ID": "2010dodgejourney",
-        "Trims": {
-            "SE": {
-                "PrettyName": "SE",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "10729",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "2.4L I4": {
-                        "Horsepower": 173,
-                        "Torque": 166,
-                        "Cylinders": 4,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "Filters": {
-                                "OEM": "4891926AB",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4891926AB",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            },
-            "SXT": {
-                "PrettyName": "SXT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "2.4L I4": {
-                        "Horsepower": 173,
-                        "Torque": 166,
-                        "Cylinders": 4,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 4.5,
-                            "QuantityLiters": 4.3,
-                            "Filters": {
-                                "OEM": "4891926AB",
-                                "Fram": "PH6607",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4891926AB",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    },
-                    "3.5L V6": {
-                        "Horsepower": 235,
-                        "Torque": 232,
-                        "Cylinders": 6,
-                        "Transmission": "6-Speed Automatic",
-                        "TransmissionCode": "62TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            },
-            "R/T": {
-                "PrettyName": "R/T",
-                "Notes": "Sport Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "3.5L V6": {
-                        "Horsepower": 235,
-                        "Torque": 232,
-                        "Cylinders": 6,
-                        "Transmission": "6-Speed Automatic",
-                        "TransmissionCode": "62TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4892339BE",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "4892339BE",
-                            "Fram": "CA9054",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "ZFR5F-11",
-                            "NGK": "ZFR5F-11"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Nitro": {
-        "Trims": {
-            "SXT": {
-                "PrettyName": "SXT",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.0L V6": {
-                        "Horsepower": 260,
-                        "Torque": 265,
-                        "Cylinders": 6,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Ram1500CrewCab": {
-        "PrettyName": "Ram 1500 Crew Cab",
-        "Trims": {
-            "ST": {
-                "PrettyName": "ST",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "Horsepower": 310,
-                        "Torque": 334,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "Horsepower": 310,
-                        "Torque": 334,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "Laramie": {
-                "PrettyName": "Laramie",
-                "Notes": "Luxury/High Trim",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Ram1500QuadCab": {
-        "PrettyName": "Ram 1500 Quad Cab",
-        "Trims": {
-            "ST": {
-                "PrettyName": "ST",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "Horsepower": 310,
-                        "Torque": 334,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "Horsepower": 310,
-                        "Torque": 334,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Ram1500RegularCab": {
-        "PrettyName": "Ram 1500 Regular Cab",
-        "Trims": {
-            "ST": {
-                "PrettyName": "ST",
-                "Notes": "Base Model",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "Horsepower": 310,
-                        "Torque": 334,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            },
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Upgraded Model",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "3.7L V6": {
-                        "Horsepower": 210,
-                        "Torque": 235,
-                        "Cylinders": 6,
-                        "Transmission": "4-Speed Automatic",
-                        "TransmissionCode": "41TE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 5,
-                            "QuantityLiters": 4.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "4.7L V8": {
-                        "Horsepower": 310,
-                        "Torque": 334,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 6,
-                            "QuantityLiters": 5.7,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 7,
-                            "QuantityLiters": 6.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Ram2500_3500HeavyDutyCrewCab": {
-        "PrettyName": "Ram 2500/3500 Heavy Duty Crew Cab",
-        "Trims": {
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Heavy Duty Crew Cab",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 8,
-                            "QuantityLiters": 7.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "6.7L Cummins Turbo Diesel I6": {
-                        "Horsepower": 350,
-                        "Torque": 650,
-                        "Cylinders": 6,
-                        "Transmission": "6-Speed Automatic",
-                        "TransmissionCode": "68RFE",
-                        "Oil": {
-                            "Type": "SAE 15W-40",
-                            "QuantityQuarts": 12,
-                            "QuantityLiters": 11.4,
-                            "Filters": {
-                                "OEM": "68121100AA",
-                                "Fram": "PH3614",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "68113534AA",
-                            "Fram": "CA10657",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "None",
-                            "NGK": "None",
-                            "Denso": "None"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Ram2500_3500HeavyDutyMegaCab": {
-        "PrettyName": "Ram 2500/3500 Heavy Duty Mega Cab",
-        "Trims": {
-            "SLT": {
-                "PrettyName": "SLT",
-                "Notes": "Heavy Duty Mega Cab",
-                "CabinAirFilter": {
-                    "OEM": "68069922AA",
-                    "Fram": "CF10211",
-                    "Motomaster": "MCF10551"
-                },
-                "Engines": {
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 8,
-                            "QuantityLiters": 7.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "6.7L Cummins Turbo Diesel I6": {
-                        "Horsepower": 350,
-                        "Torque": 650,
-                        "Cylinders": 6,
-                        "Transmission": "6-Speed Automatic",
-                        "TransmissionCode": "68RFE",
-                        "Oil": {
-                            "Type": "SAE 15W-40",
-                            "QuantityQuarts": 12,
-                            "QuantityLiters": 11.4,
-                            "Filters": {
-                                "OEM": "68121100AA",
-                                "Fram": "PH3614",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "68113534AA",
-                            "Fram": "CA10657",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "None",
-                            "NGK": "None",
-                            "Denso": "None"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Ram2500_3500HeavyDutyRegularCab": {
-        "PrettyName": "Ram 2500/3500 Heavy Duty Regular Cab",
-        "Trims": {
-            "ST": {
-                "PrettyName": "ST",
-                "Notes": "Base Heavy Duty Regular Cab",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "5.7L HEMI V8": {
-                        "Horsepower": 390,
-                        "Torque": 407,
-                        "Cylinders": 8,
-                        "Transmission": "5-Speed Automatic",
-                        "TransmissionCode": "545RFE",
-                        "Oil": {
-                            "Type": "SAE 5W-20",
-                            "QuantityQuarts": 8,
-                            "QuantityLiters": 7.6,
-                            "Filters": {
-                                "OEM": "4884899AB",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "53034072AA",
-                            "Fram": "CA9288",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SPZFR6F11G",
-                            "NGK": "4469",
-                            "Denso": "3247"
-                        }
-                    },
-                    "6.7L Cummins Turbo Diesel I6": {
-                        "Horsepower": 350,
-                        "Torque": 650,
-                        "Cylinders": 6,
-                        "Transmission": "6-Speed Automatic",
-                        "TransmissionCode": "68RFE",
-                        "Oil": {
-                            "Type": "SAE 15W-40",
-                            "QuantityQuarts": 12,
-                            "QuantityLiters": 11.4,
-                            "Filters": {
-                                "OEM": "68121100AA",
-                                "Fram": "PH3614",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "68113534AA",
-                            "Fram": "CA10657",
-                            "Motomaster": "MCA9997"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "None",
-                            "NGK": "None",
-                            "Denso": "None"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "ViperCoupe": {
-        "PrettyName": "Viper Coupe",
-        "Trims": {
-            "Base": {
-                "PrettyName": "Base Coupe",
-                "Notes": "High-performance sports car",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "8.4L V10": {
-                        "Horsepower": 600,
-                        "Torque": 560,
-                        "Cylinders": 10,
-                        "Transmission": "6-Speed Manual",
-                        "TransmissionCode": "Tremec TR-6060",
-                        "Oil": {
-                            "Type": "SAE 0W-40 (Mobil 1 Full Synthetic recommended)",
-                            "QuantityQuarts": 10.5,
-                            "QuantityLiters": 9.9,
-                            "Filters": {
-                                "OEM": "5038041AA",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "5037505AB",
-                            "Fram": "CA9496",
-                            "Motomaster": "MCA9496"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SP149125AE",
-                            "NGK": "LZTR4A-11 (2262)",
-                            "Denso": "IT16TT"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "ViperRoadster": {
-        "PrettyName": "Dodge Viper Roadster",
-        "Trims": {
-            "Base": {
-                "PrettyName": "Base Roadster",
-                "Notes": "High-performance convertible",
-                "CabinAirFilter": {
-                    "OEM": "None",
-                    "Fram": "None",
-                    "Motomaster": "None"
-                },
-                "Engines": {
-                    "8.4L V10": {
-                        "Horsepower": 600,
-                        "Torque": 560,
-                        "Cylinders": 10,
-                        "Transmission": "6-Speed Manual",
-                        "TransmissionCode": "Tremec TR-6060",
-                        "Oil": {
-                            "Type": "SAE 0W-40 (Mobil 1 Full Synthetic recommended)",
-                            "QuantityQuarts": 10.5,
-                            "QuantityLiters": 9.9,
-                            "Filters": {
-                                "OEM": "5038041AA",
-                                "Fram": "PH10060",
-                                "Motomaster": "FD"
-                            }
-                        },
-                        "AirFilter": {
-                            "OEM": "5037505AB",
-                            "Fram": "CA9496",
-                            "Motomaster": "MCA9496"
-                        },
-                        "SparkPlugs": {
-                            "OEM": "SP149125AE",
-                            "NGK": "LZTR4A-11 (2262)",
-                            "Denso": "IT16TT"
-                        }
-                    }
-                }
-            }
-        }
+      }
     }
+  },
+  "Caliber": {
+    "ID": "2010dodgecaliber",
+    "Trims": {
+      "SE": {
+        "PrettyName": "SE",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "5058693AA",
+          "Fram"      : "10729",
+          "Motomaster": "MCF10550"
+        },
+        "Engines": {
+          "2.0L I4": {
+            "EngineID": "2.0",
+            "Horsepower": 158,
+            "Torque": 125,
+            "Cylinders": 4,
+            "Transmission": "5-Speed Manual",
+            "TransmissionCode": "M5",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "1AML00006A",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4891694AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SP0ZFR5F11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "SXT": {
+        "PrettyName": "SXT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "5058693AA",
+          "Fram"      : "10729",
+          "Motomaster": "MCF10550"
+        },
+        "Engines": {
+          "2.0L I4": {
+            "EngineID": "2.0",
+            "Horsepower": 158,
+            "Torque": 125,
+            "Cylinders": 4,
+            "Transmission": "5-Speed Manual",
+            "TransmissionCode": "M5",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "1AML00006A",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4891694AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SP0ZFR5F11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "R/T": {
+        "PrettyName": "R/T",
+        "Notes": "Sport Model",
+        "CabinAirFilter": {
+          "OEM"       : "5058693AA",
+          "Fram"      : "10729",
+          "Motomaster": "MCF10550"
+        },
+        "Engines": {
+          "2.4L I4": {
+            "EngineID": "2.4",
+            "Horsepower": 172,
+            "Torque": 165,
+            "Cylinders": 4,
+            "Transmission": "6-Speed Manual",
+            "TransmissionCode": "M6",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "1AML00006A",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4891694AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SP0ZFR5F11", "NGK": "ZFR5F-11"}
+          }
+        }
+      }
+    }
+  },
+  "Challenger": {
+    "Trims": {
+      "SE": {
+        "PrettyName": "SE",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.5L V6": {
+            "EngineID": "3.5",
+            "Horsepower": 250,
+            "Torque": 250,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "SXT": {
+        "PrettyName": "SXT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.5L V6": {
+            "EngineID": "3.5",
+            "Horsepower": 250,
+            "Torque": 250,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "R/T": {
+        "PrettyName": "R/T",
+        "Notes": "Sport Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "5.7L V8": {
+            "EngineID": "5.7",
+            "Horsepower": 372,
+            "Torque": 400,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "SRT8": {
+        "PrettyName": "SRT8",
+        "Notes": "High-Performance Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "6.1L V8": {
+            "EngineID": "6.1",
+            "Horsepower": 425,
+            "Torque": 420,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "NAG1",
+            "Oil": {
+              "Type": "SAE 0W-40 Synthetic",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "5038041AA",
+                "Fram"      : "PH10060",
+                "Motomaster": "MO-899"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "5038042AA",
+              "Fram"      : "CA9496",
+              "Motomaster": "MCA9496"
+            },
+            "SparkPlugs": {"OEM": "RE14MCC4", "NGK": "LZTR4A-11"}
+          }
+        }
+      }
+    }
+  },
+  "Charger": {
+    "Trims": {
+      "SE": {
+        "PrettyName": "SE",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.5L V6": {
+            "EngineID": "3.5",
+            "Horsepower": 250,
+            "Torque": 250,
+            "Cylinders": 6,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "5N",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "ChangeIntervalMiles": 6000,
+              "ChangeIntervalKM": 10000,
+              "ChangeIntervalMonths": 6,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {
+              "OEM" : "ZFR5F-11",
+              "NGK" : "ZFR5F-11",
+              "Fram": "PH10060"
+            }
+          }
+        }
+      },
+      "SXT": {
+        "PrettyName": "SXT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.5L V6": {
+            "EngineID": "3.5",
+            "Horsepower": 250,
+            "Torque": 250,
+            "Cylinders": 6,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "5N",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {
+              "OEM" : "ZFR5F-11",
+              "NGK" : "ZFR5F-11",
+              "Fram": "PH10060"
+            }
+          }
+        }
+      },
+      "R/T": {
+        "PrettyName": "R/T",
+        "Notes": "Sport Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "5.7L V8": {
+            "EngineID": "5.7",
+            "Horsepower": 370,
+            "Torque": 395,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {
+              "OEM" : "ZFR5F-11",
+              "NGK" : "ZFR5F-11",
+              "Fram": "PH10060"
+            }
+          }
+        }
+      }
+    }
+  },
+  "DakotaCrewCab": {
+    "PrettyName": "Dakota Crew Cab",
+    "Trims": {
+      "ST": {
+        "PrettyName": "ST",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "EngineID": "3.7",
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "EngineID": "3.7",
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "EngineID": "4.7",
+            "Horsepower": 302,
+            "Torque": 329,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "TRX4": {
+        "PrettyName": "TRX4",
+        "Notes": "Off-Road Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "4.7L V8": {
+            "EngineID": "4.7",
+            "Horsepower": 302,
+            "Torque": 329,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      }
+    }
+  },
+  "DakotaExtendedCab": {
+    "PrettyName": "Dakota Extended Cab",
+    "Trims": {
+      "ST": {
+        "PrettyName": "ST",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "EngineID": "3.7",
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "Horsepower": 302,
+            "Torque": 329,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "TRX4": {
+        "PrettyName": "TRX4",
+        "Notes": "Off-Road Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "4.7L V8": {
+            "Horsepower": 302,
+            "Torque": 329,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-30",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      }
+    }
+  },
+  "GrandCaravan": {
+    "Trims": {
+      "SE": {
+        "PrettyName": "SE",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "5082923AA",
+          "Fram"      : "CF10215",
+          "Motomaster": "MCF10550"
+        },
+        "Engines": {
+          "3.3L V6": {
+            "Horsepower": 180,
+            "Torque": 210,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4892339AA",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "04892339AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          },
+          "3.8L V6": {
+            "Horsepower": 197,
+            "Torque": 230,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4892339AA",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "04892339AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "SXT": {
+        "PrettyName": "SXT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "5082923AA",
+          "Fram"      : "CF10215",
+          "Motomaster": "MCF10550"
+        },
+        "Engines": {
+          "3.3L V6": {
+            "Horsepower": 180,
+            "Torque": 210,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4892339AA",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "04892339AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          },
+          "3.8L V6": {
+            "Horsepower": 197,
+            "Torque": 230,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4892339AA",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "04892339AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      }
+    }
+  },
+  "GrandCaravanCargo": {
+    "PrettyName": "Grand Caravan Cargo",
+    "Trims": {
+      "CargoVan": {
+        "PrettyName": "Cargo Van",
+        "Notes": "Commercial Van Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.3L V6": {
+            "Horsepower": 180,
+            "Torque": 210,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4892339AA",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "04892339AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          },
+          "3.8L V6": {
+            "Horsepower": 197,
+            "Torque": 230,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4892339AA",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "04892339AA",
+              "Fram"      : "CA10118",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      }
+    }
+  },
+  "Journey": {
+    "ID": "2010dodgejourney",
+    "Trims": {
+      "SE": {
+        "PrettyName": "SE",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "10729",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "2.4L I4": {
+            "Horsepower": 173,
+            "Torque": 166,
+            "Cylinders": 4,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "Filters": {
+                "OEM"       : "4891926AB",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4891926AB",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "SXT": {
+        "PrettyName": "SXT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "2.4L I4": {
+            "Horsepower": 173,
+            "Torque": 166,
+            "Cylinders": 4,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 4.5,
+              "QuantityLiters": 4.3,
+              "Filters": {
+                "OEM"       : "4891926AB",
+                "Fram"      : "PH6607",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4891926AB",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          },
+          "3.5L V6": {
+            "Horsepower": 235,
+            "Torque": 232,
+            "Cylinders": 6,
+            "Transmission": "6-Speed Automatic",
+            "TransmissionCode": "62TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      },
+      "R/T": {
+        "PrettyName": "R/T",
+        "Notes": "Sport Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "3.5L V6": {
+            "Horsepower": 235,
+            "Torque": 232,
+            "Cylinders": 6,
+            "Transmission": "6-Speed Automatic",
+            "TransmissionCode": "62TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4892339BE",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "4892339BE",
+              "Fram"      : "CA9054",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "ZFR5F-11", "NGK": "ZFR5F-11"}
+          }
+        }
+      }
+    }
+  },
+  "Nitro": {
+    "Trims": {
+      "SXT": {
+        "PrettyName": "SXT",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.0L V6": {
+            "Horsepower": 260,
+            "Torque": 265,
+            "Cylinders": 6,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      }
+    }
+  },
+  "Ram1500CrewCab": {
+    "PrettyName": "Ram 1500 Crew Cab",
+    "Trims": {
+      "ST": {
+        "PrettyName": "ST",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "Horsepower": 310,
+            "Torque": 334,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "Horsepower": 310,
+            "Torque": 334,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "Laramie": {
+        "PrettyName": "Laramie",
+        "Notes": "Luxury/High Trim",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      }
+    }
+  },
+  "Ram1500QuadCab": {
+    "PrettyName": "Ram 1500 Quad Cab",
+    "Trims": {
+      "ST": {
+        "PrettyName": "ST",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "Horsepower": 310,
+            "Torque": 334,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "Horsepower": 310,
+            "Torque": 334,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      }
+    }
+  },
+  "Ram1500RegularCab": {
+    "PrettyName": "Ram 1500 Regular Cab",
+    "Trims": {
+      "ST": {
+        "PrettyName": "ST",
+        "Notes": "Base Model",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "Horsepower": 310,
+            "Torque": 334,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      },
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Upgraded Model",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "3.7L V6": {
+            "Horsepower": 210,
+            "Torque": 235,
+            "Cylinders": 6,
+            "Transmission": "4-Speed Automatic",
+            "TransmissionCode": "41TE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 5,
+              "QuantityLiters": 4.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "4.7L V8": {
+            "Horsepower": 310,
+            "Torque": 334,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 6,
+              "QuantityLiters": 5.7,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 7,
+              "QuantityLiters": 6.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          }
+        }
+      }
+    }
+  },
+  "Ram2500_3500HeavyDutyCrewCab": {
+    "PrettyName": "Ram 2500/3500 Heavy Duty Crew Cab",
+    "Trims": {
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Heavy Duty Crew Cab",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 8,
+              "QuantityLiters": 7.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "6.7L Cummins Turbo Diesel I6": {
+            "Horsepower": 350,
+            "Torque": 650,
+            "Cylinders": 6,
+            "Transmission": "6-Speed Automatic",
+            "TransmissionCode": "68RFE",
+            "Oil": {
+              "Type": "SAE 15W-40",
+              "QuantityQuarts": 12,
+              "QuantityLiters": 11.4,
+              "Filters": {
+                "OEM"       : "68121100AA",
+                "Fram"      : "PH3614",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "68113534AA",
+              "Fram"      : "CA10657",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "None", "NGK": "None", "Denso": "None"}
+          }
+        }
+      }
+    }
+  },
+  "Ram2500_3500HeavyDutyMegaCab": {
+    "PrettyName": "Ram 2500/3500 Heavy Duty Mega Cab",
+    "Trims": {
+      "SLT": {
+        "PrettyName": "SLT",
+        "Notes": "Heavy Duty Mega Cab",
+        "CabinAirFilter": {
+          "OEM"       : "68069922AA",
+          "Fram"      : "CF10211",
+          "Motomaster": "MCF10551"
+        },
+        "Engines": {
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 8,
+              "QuantityLiters": 7.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "6.7L Cummins Turbo Diesel I6": {
+            "Horsepower": 350,
+            "Torque": 650,
+            "Cylinders": 6,
+            "Transmission": "6-Speed Automatic",
+            "TransmissionCode": "68RFE",
+            "Oil": {
+              "Type": "SAE 15W-40",
+              "QuantityQuarts": 12,
+              "QuantityLiters": 11.4,
+              "Filters": {
+                "OEM"       : "68121100AA",
+                "Fram"      : "PH3614",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "68113534AA",
+              "Fram"      : "CA10657",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "None", "NGK": "None", "Denso": "None"}
+          }
+        }
+      }
+    }
+  },
+  "Ram2500_3500HeavyDutyRegularCab": {
+    "PrettyName": "Ram 2500/3500 Heavy Duty Regular Cab",
+    "Trims": {
+      "ST": {
+        "PrettyName": "ST",
+        "Notes": "Base Heavy Duty Regular Cab",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "5.7L HEMI V8": {
+            "Horsepower": 390,
+            "Torque": 407,
+            "Cylinders": 8,
+            "Transmission": "5-Speed Automatic",
+            "TransmissionCode": "545RFE",
+            "Oil": {
+              "Type": "SAE 5W-20",
+              "QuantityQuarts": 8,
+              "QuantityLiters": 7.6,
+              "Filters": {
+                "OEM"       : "4884899AB",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "53034072AA",
+              "Fram"      : "CA9288",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "SPZFR6F11G", "NGK": "4469", "Denso": "3247"}
+          },
+          "6.7L Cummins Turbo Diesel I6": {
+            "Horsepower": 350,
+            "Torque": 650,
+            "Cylinders": 6,
+            "Transmission": "6-Speed Automatic",
+            "TransmissionCode": "68RFE",
+            "Oil": {
+              "Type": "SAE 15W-40",
+              "QuantityQuarts": 12,
+              "QuantityLiters": 11.4,
+              "Filters": {
+                "OEM"       : "68121100AA",
+                "Fram"      : "PH3614",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "68113534AA",
+              "Fram"      : "CA10657",
+              "Motomaster": "MCA9997"
+            },
+            "SparkPlugs": {"OEM": "None", "NGK": "None", "Denso": "None"}
+          }
+        }
+      }
+    }
+  },
+  "ViperCoupe": {
+    "PrettyName": "Viper Coupe",
+    "Trims": {
+      "Base": {
+        "PrettyName": "Base Coupe",
+        "Notes": "High-performance sports car",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "8.4L V10": {
+            "Horsepower": 600,
+            "Torque": 560,
+            "Cylinders": 10,
+            "Transmission": "6-Speed Manual",
+            "TransmissionCode": "Tremec TR-6060",
+            "Oil": {
+              "Type": "SAE 0W-40 (Mobil 1 Full Synthetic recommended)",
+              "QuantityQuarts": 10.5,
+              "QuantityLiters": 9.9,
+              "Filters": {
+                "OEM"       : "5038041AA",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "5037505AB",
+              "Fram"      : "CA9496",
+              "Motomaster": "MCA9496"
+            },
+            "SparkPlugs": {
+              "OEM"  : "SP149125AE",
+              "NGK"  : "LZTR4A-11 (2262)",
+              "Denso": "IT16TT"
+            }
+          }
+        }
+      }
+    }
+  },
+  "ViperRoadster": {
+    "PrettyName": "Dodge Viper Roadster",
+    "Trims": {
+      "Base": {
+        "PrettyName": "Base Roadster",
+        "Notes": "High-performance convertible",
+        "CabinAirFilter": {
+          "OEM"       : "None",
+          "Fram"      : "None",
+          "Motomaster": "None"
+        },
+        "Engines": {
+          "8.4L V10": {
+            "Horsepower": 600,
+            "Torque": 560,
+            "Cylinders": 10,
+            "Transmission": "6-Speed Manual",
+            "TransmissionCode": "Tremec TR-6060",
+            "Oil": {
+              "Type": "SAE 0W-40 (Mobil 1 Full Synthetic recommended)",
+              "QuantityQuarts": 10.5,
+              "QuantityLiters": 9.9,
+              "Filters": {
+                "OEM"       : "5038041AA",
+                "Fram"      : "PH10060",
+                "Motomaster": "FD"
+              }
+            },
+            "AirFilter": {
+              "OEM"       : "5037505AB",
+              "Fram"      : "CA9496",
+              "Motomaster": "MCA9496"
+            },
+            "SparkPlugs": {
+              "OEM"  : "SP149125AE",
+              "NGK"  : "LZTR4A-11 (2262)",
+              "Denso": "IT16TT"
+            }
+          }
+        }
+      }
+    }
+  }
 }
